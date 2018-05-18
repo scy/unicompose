@@ -1,0 +1,3 @@
+[submodule "google-chrome-os"]
+	path = google-chrome-os
+	url = https://github.com/google/extra-keyboards-for-chrome-os.git
