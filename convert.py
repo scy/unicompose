@@ -56,7 +56,7 @@ def to_macos(mappings, depth=0):
 
 
 def default():
-    with open(os.path.dirname(os.path.realpath(__file__)) + '/google-chrome-os/composekey/background.js') as fin:
+    with open(os.path.dirname(os.path.realpath(__file__)) + '/chrome-os/composekey/background.js') as fin:
         for line in to_macos({'§': to_tree(from_chromejs(fin))}):
             print(line)
 
